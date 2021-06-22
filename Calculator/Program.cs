@@ -8,10 +8,11 @@ namespace CalculatorProgram
         static void Main(string[] args)
         {
             bool endApp = false;
+            var test = "";
             //Title
             Console.WriteLine("Console Calculator\r");
             Console.WriteLine("------------------\n");
-            
+
 
             Calculator calculator = new Calculator();
 
