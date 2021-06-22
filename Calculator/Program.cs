@@ -1,6 +1,31 @@
 ﻿using System;
 using CalculatorLibrary;
 
+/* Not a big thing, more of a cleanliness thing.
+Dotnet 3.5 (C# 4 I think), introduced the `var` keyword. What this basically does is it allows the compiler
+to manage the typing. It also helps to keep the code inline
+
+eg
+
+var item1 = ""; -- will evaluate to a stirng
+var item2 = false; -- will evaluate to a bool
+var item3 = new List<string>(); -- will evaluate to a list of string
+
+is much easier to read than
+
+string item1 = "";
+bool items2 = false;
+List<string> item3 = new List<string>();
+
+it can also be applied to objects.
+
+eg
+var calculator = new Calculator();
+
+You will still have access to all intellisense
+*/
+
+
 namespace CalculatorProgram
 {
     class Program
@@ -79,6 +104,6 @@ namespace CalculatorProgram
             return;
         }
     }
-    
+
 }
 
