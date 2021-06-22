@@ -12,9 +12,9 @@ namespace CalculatorProgram
             //Title
             Console.WriteLine("Console Calculator\r");
             Console.WriteLine("------------------\n");
+            
 
             Calculator calculator = new Calculator();
-
 
             while (!endApp)
             {
