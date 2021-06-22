@@ -8,7 +8,9 @@ namespace CalculatorProgram
         static void Main(string[] args)
         {
             bool endApp = false;
-            
+            var testing1 = "";
+            var testing2 = "";
+            var testing3 = "";
             //Title
             Console.WriteLine("Console Calculator\r");
             Console.WriteLine("------------------\n");
